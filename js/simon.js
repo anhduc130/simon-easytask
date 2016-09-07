@@ -94,6 +94,8 @@ KEYS.forEach(function (key) {
 	notes[key] = new NoteBox(key);
 });
 
+/*
 KEYS.concat(KEYS.slice().reverse()).forEach(function(key, i) {
 	setTimeout(notes[key].play.bind(null, key), i * NOTE_DURATION);
 });
+*/
