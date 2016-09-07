@@ -62,7 +62,7 @@ function NoteBox(key, onClick) {
 	// Call this function to remember keys the users have pressed
 	this.rememberKeys = function () {
 		if(isFirstKey){
-			setDuration = setInterval(playNotes, 2500); // plat notes after 2.5 seconds
+			setDuration = setInterval(playNotes, 2500); // play notes after 2.5 seconds
 			keysArray.push(this.key);
 			isFirstKey = false;
 		}
